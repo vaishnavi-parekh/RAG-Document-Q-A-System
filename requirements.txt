@@ -1,0 +1,21 @@
+streamlit>=1.50
+python-dotenv>=1.0
+
+# LangChain core + integrations
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-openai>=0.2
+langchain-groq>=0.2
+langchain-ollama>=0.2
+
+# Vector databases
+chromadb>=0.5
+langchain-chroma>=0.1
+pinecone>=5.0
+langchain-pinecone>=0.2
+
+# Document loading + free local embeddings
+pypdf>=4.0
+docx2txt>=0.8
+fastembed>=0.4
